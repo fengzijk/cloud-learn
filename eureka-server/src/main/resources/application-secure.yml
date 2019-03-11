@@ -1,5 +1,5 @@
-spring:
-  security:
-    user:
-      name: "root"
-      password: "root"
+#spring:
+ # security:
+  #  user:
+   #   name: "root"
+    #  password: "root"

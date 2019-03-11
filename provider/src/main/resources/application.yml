@@ -1,0 +1,20 @@
+server:
+  port: 8013
+
+spring:
+  #security:
+   #   user:
+    #      name: "root"
+     #     password: "root"
+  application:
+    name: @pom.artifactId@
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+

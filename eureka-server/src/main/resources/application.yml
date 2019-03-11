@@ -1,7 +1,7 @@
 server:
   port: 8761
 spring:
-  profiles:
-    active: secure
+  #profiles:
+   # active: secure
   application:
     name: @pom.artifactId@

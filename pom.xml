@@ -16,6 +16,8 @@
     <modules>
         <module>eureka-server</module>
         <module>monitor</module>
+        <module>provider</module>
+        <module>consumer</module>
     </modules>
     <!--配置参数-->
     <properties>
